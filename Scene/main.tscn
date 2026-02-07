@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://blealwbwk1lol"]
+
+[ext_resource type="PackedScene" uid="uid://v78o0k7ytuia" path="res://Scene/map.tscn" id="1_sblpm"]
+[ext_resource type="PackedScene" uid="uid://c2s7c5lgqgc08" path="res://Scene/player.tscn" id="2_r34rm"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Map" parent="." instance=ExtResource("1_sblpm")]
+
+[node name="Player" parent="." instance=ExtResource("2_r34rm")]
+position = Vector2(81, 31)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
