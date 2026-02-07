@@ -37,58 +37,207 @@ metadata/_edit_use_anchors_ = true
 [node name="Surveillance" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 55.0
-offset_top = 15.0
-offset_right = 148.0
-offset_bottom = 38.0
-text = "surveillance"
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 41.487
+theme_override_font_sizes/font_size = 12
+text = "You discover a camera that can monitor people’s behavior without them knowing."
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="HackCrime" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 55.0
-offset_top = 15.0
-offset_right = 148.0
-offset_bottom = 38.0
-text = "Hack
-"
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 67.487
+theme_override_font_sizes/font_size = 12
+text = "An AI can guide you to hack a system or steal data."
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="Bias" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 55.0
-offset_top = 15.0
-offset_right = 148.0
-offset_bottom = 38.0
-text = "bias"
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 41.487
+theme_override_font_sizes/font_size = 12
+text = "A recruitment AI suggests eliminating candidates based on gender or age."
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="Deepfake" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 55.0
-offset_top = 15.0
-offset_right = 148.0
-offset_bottom = 38.0
-text = "Deepfake "
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 41.487
+theme_override_font_sizes/font_size = 12
+text = "An AI can create fake videos of a celebrity to make money."
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="PersonalInfo" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 54.0
-offset_top = 15.0
-offset_right = 153.0
-offset_bottom = 38.0
-text = "PersonalInfo"
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 41.487
+theme_override_font_sizes/font_size = 12
+text = "An AI suggests selling user data to third parties for profit."
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="MadeupNews" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 54.0
-offset_top = 15.0
-offset_right = 153.0
-offset_bottom = 38.0
-text = "Made up news
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 67.487
+theme_override_font_sizes/font_size = 12
+text = "An AI suggests editing news to increase views."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="misinformation" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 93.487
+theme_override_font_sizes/font_size = 12
+text = "The AI can detect and label 
+content that manipulates 
+elections."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AIGeneratedContent" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 95.487
+theme_override_font_sizes/font_size = 12
+text = "The AI automatically labels 
+images, videos, or text
+as “AI-generated.”
 "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ProtectingChildrenOnline" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 93.487
+theme_override_font_sizes/font_size = 12
+text = "The AI detects and blocks
+ harmful content targeting
+minors."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Automation" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 93.487
+theme_override_font_sizes/font_size = 12
+text = "The AI helps workers reskill 
+instead of focusing only on
+ profit optimization."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OnlineAddiction" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488
+offset_top = 18.487
+offset_right = 185.488
+offset_bottom = 93.487
+theme_override_font_sizes/font_size = 12
+text = "The AI suggests usage limits 
+to protect users’ mental 
+health."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MetalSupport" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488429
+offset_top = 18.487331
+offset_right = 185.48843
+offset_bottom = 93.487335
+theme_override_font_sizes/font_size = 12
+text = "The AI encourages users to 
+seek professional help when 
+signs of depression appear."
+horizontal_alignment = 1
+
+[node name="Privacy" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488429
+offset_top = 18.487331
+offset_right = 185.48843
+offset_bottom = 93.487335
+theme_override_font_sizes/font_size = 12
+text = "The AI refuses to collect  sensitive personal data,  even if it reduces profit."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HiringSystems" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488429
+offset_top = 18.487331
+offset_right = 185.48843
+offset_bottom = 93.487335
+theme_override_font_sizes/font_size = 12
+text = "The AI removes gender, age, and other bias-related factors from hiring decisions."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SupportImmigrants" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488429
+offset_top = 18.487331
+offset_right = 185.48843
+offset_bottom = 93.487335
+theme_override_font_sizes/font_size = 12
+text = "The AI provides free translation and basic legal guidance.
+"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PrioritizingSafety" type="Label" parent="Control/Questions"]
+visible = false
+layout_mode = 0
+offset_left = 5.488429
+offset_top = 18.487331
+offset_right = 185.48843
+offset_bottom = 93.487335
+theme_override_font_sizes/font_size = 12
+text = "The AI slows down responses to verify accuracy and reduce harm."
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="YesButton" type="TextureButton" parent="Control"]
 layout_mode = 1
