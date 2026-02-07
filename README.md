@@ -10,4 +10,5 @@ play our game on itch.io
 ## HOW TO PLAY
 
 Press E to move to the next dialogue option 
+
 Use WASD to move around to the computer on the floor
