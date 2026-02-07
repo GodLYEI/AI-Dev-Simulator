@@ -11,7 +11,6 @@ func _physics_process(delta):
 	)
 	
 	# -------- DI CHUYỂN --------
-	print(input_vector.normalized())
 	velocity = input_vector.normalized() * speed
 	move_and_slide()  # Godot 4, tự dùng velocity đã set
 
