@@ -2,7 +2,7 @@
 
 This is an AI Dev Simulator for UIC Sparkhacks 2026
 
-We created an immersive expierence that allows players to make decsions that influence and build an AI
+We created an immersive expierence that allows players to make decsions that influence and build an AI using godot for the game engine 
 
 play our game on itch.io 
-# link
+# link placeholder
