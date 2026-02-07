@@ -5,7 +5,9 @@ extends CharacterBody2D
 
 # Sau khi lưu code, hãy kéo node CanvasLayer vào ô này ở Inspector của Player
 @export var computer_ui: CanvasLayer
-	
+
+var ethic_scale = 50; 
+
 var player_in_range = false 
 var is_using_computer = false
 
@@ -69,3 +71,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 func _on_area_2d_body_exited(body: Node2D) -> void:
 	if body.name == "Player":
 		player_in_range = false
+
+func modify_ethic(value : int):
+	ethic_scale += value
+	print(ethic_scale)

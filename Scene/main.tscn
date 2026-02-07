@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://blealwbwk1lol"]
+[gd_scene load_steps=6 format=3 uid="uid://blealwbwk1lol"]
 
 [ext_resource type="Script" uid="uid://dgh7m4ljymqut" path="res://Scene/main.gd" id="1_r34rm"]
 [ext_resource type="PackedScene" uid="uid://v78o0k7ytuia" path="res://Scene/map.tscn" id="1_sblpm"]
 [ext_resource type="PackedScene" uid="uid://c2s7c5lgqgc08" path="res://Scene/player.tscn" id="2_r34rm"]
-[ext_resource type="PackedScene" uid="uid://cq5ewb5jejrrs" path="res://Scene/computer_ui.tscn" id="3_r34rm"]
+[ext_resource type="PackedScene" uid="uid://cq5ewb5jejrrs" path="res://UI/computer_ui.tscn" id="3_r34rm"]
+[ext_resource type="PackedScene" uid="uid://du5hw6brraj5o" path="res://UI/Levels.tscn" id="5_3amdw"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_r34rm")
@@ -12,7 +13,6 @@ script = ExtResource("1_r34rm")
 
 [node name="Player" parent="." node_paths=PackedStringArray("computer_ui") instance=ExtResource("2_r34rm")]
 position = Vector2(402, 125)
-speed = null
 computer_ui = NodePath("../ComputerUI")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
@@ -22,6 +22,10 @@ scale = Vector2(0.099999994, 0.099999994)
 visible = false
 
 [node name="PlayerUI" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Levels" parent="." node_paths=PackedStringArray("Player") instance=ExtResource("5_3amdw")]
+Player = NodePath("../Player")
 
 [connection signal="body_entered" from="Map/ComputerZone" to="Player" method="_on_area_2d_body_entered"]
 [connection signal="body_exited" from="Map/ComputerZone" to="Player" method="_on_area_2d_body_exited"]
