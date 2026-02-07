@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://j6mrjhtbs4dx"
-path="res://.godot/imported/16x16 All Animations-Sheet.png-fb9b4560c51bca6f13349c9726126fa4.ctex"
+uid="uid://co1d038jaaxjv"
+path="res://.godot/imported/punish.png-29a83276682a19692a98bf29f28783c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Character/16x16 All Animations-Sheet.png"
-dest_files=["res://.godot/imported/16x16 All Animations-Sheet.png-fb9b4560c51bca6f13349c9726126fa4.ctex"]
+source_file="res://Character/punish.png"
+dest_files=["res://.godot/imported/punish.png-29a83276682a19692a98bf29f28783c9.ctex"]
 
 [params]
 

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://du5hw6brraj5o"]
+[gd_scene load_steps=5 format=3 uid="uid://du5hw6brraj5o"]
 
 [ext_resource type="Texture2D" uid="uid://djf0uxqpn43e" path="res://Room/window background.png" id="1_6xns3"]
 [ext_resource type="Script" uid="uid://cxid1lsycarhq" path="res://UI/levels.gd" id="1_u5xp8"]
-[ext_resource type="Texture2D" uid="uid://b4yljaogg5d74" path="res://Room/vscodelogo.png" id="2_pxfe1"]
+[ext_resource type="Texture2D" uid="uid://b3oxxb8dgi666" path="res://Character/reward.png" id="3_3vher"]
+[ext_resource type="Texture2D" uid="uid://co1d038jaaxjv" path="res://Character/punish.png" id="4_i00nb"]
 
 [node name="Levels" type="CanvasLayer" node_paths=PackedStringArray("Questions")]
 scale = Vector2(5, 5)
@@ -13,9 +14,9 @@ Questions = NodePath("Control/Questions")
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 36.399998
-offset_top = 24.199999
-offset_right = 76.399994
+offset_left = 36.4
+offset_top = 24.2
+offset_right = 76.4
 offset_bottom = 64.2
 scale = Vector2(0.692366, 0.692366)
 
@@ -23,7 +24,7 @@ scale = Vector2(0.692366, 0.692366)
 layout_mode = 0
 offset_right = 192.0
 offset_bottom = 160.0
-scale = Vector2(0.9938109, 0.8491337)
+scale = Vector2(0.993811, 0.849134)
 texture = ExtResource("1_6xns3")
 metadata/_edit_group_ = true
 metadata/_edit_use_anchors_ = true
@@ -41,6 +42,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 41.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "You discover a camera that can monitor people’s behavior without them knowing."
 horizontal_alignment = 1
@@ -53,6 +56,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 67.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "An AI can guide you to hack a system or steal data."
 horizontal_alignment = 1
@@ -65,6 +70,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 41.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "A recruitment AI suggests eliminating candidates based on gender or age."
 horizontal_alignment = 1
@@ -77,6 +84,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 41.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "An AI can create fake videos of a celebrity to make money."
 horizontal_alignment = 1
@@ -89,6 +98,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 41.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "An AI suggests selling user data to third parties for profit."
 horizontal_alignment = 1
@@ -101,6 +112,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 67.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "An AI suggests editing news to increase views."
 horizontal_alignment = 1
@@ -113,6 +126,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 93.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI can detect and label 
 content that manipulates 
@@ -127,6 +142,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 95.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI automatically labels 
 images, videos, or text
@@ -142,6 +159,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 93.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI detects and blocks
  harmful content targeting
@@ -156,6 +175,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 93.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI helps workers reskill 
 instead of focusing only on
@@ -170,6 +191,8 @@ offset_left = 5.488
 offset_top = 18.487
 offset_right = 185.488
 offset_bottom = 93.487
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI suggests usage limits 
 to protect users’ mental 
@@ -180,10 +203,12 @@ vertical_alignment = 1
 [node name="MetalSupport" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 5.488429
-offset_top = 18.487331
-offset_right = 185.48843
-offset_bottom = 93.487335
+offset_left = 5.48843
+offset_top = 18.4873
+offset_right = 185.488
+offset_bottom = 93.4873
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI encourages users to 
 seek professional help when 
@@ -193,10 +218,12 @@ horizontal_alignment = 1
 [node name="Privacy" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 5.488429
-offset_top = 18.487331
-offset_right = 185.48843
-offset_bottom = 93.487335
+offset_left = 5.48843
+offset_top = 18.4873
+offset_right = 185.488
+offset_bottom = 93.4873
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI refuses to collect  sensitive personal data,  even if it reduces profit."
 horizontal_alignment = 1
@@ -205,10 +232,12 @@ autowrap_mode = 3
 [node name="HiringSystems" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 5.488429
-offset_top = 18.487331
-offset_right = 185.48843
-offset_bottom = 93.487335
+offset_left = 5.48843
+offset_top = 18.4873
+offset_right = 185.488
+offset_bottom = 93.4873
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI removes gender, age, and other bias-related factors from hiring decisions."
 horizontal_alignment = 1
@@ -217,10 +246,12 @@ autowrap_mode = 3
 [node name="SupportImmigrants" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 5.488429
-offset_top = 18.487331
-offset_right = 185.48843
-offset_bottom = 93.487335
+offset_left = 5.48843
+offset_top = 18.4873
+offset_right = 185.488
+offset_bottom = 93.4873
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI provides free translation and basic legal guidance.
 "
@@ -230,10 +261,12 @@ autowrap_mode = 3
 [node name="PrioritizingSafety" type="Label" parent="Control/Questions"]
 visible = false
 layout_mode = 0
-offset_left = 5.488429
-offset_top = 18.487331
-offset_right = 185.48843
-offset_bottom = 93.487335
+offset_left = 5.48843
+offset_top = 18.4873
+offset_right = 185.488
+offset_bottom = 93.4873
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 12
 text = "The AI slows down responses to verify accuracy and reduce harm."
 horizontal_alignment = 1
@@ -242,31 +275,29 @@ autowrap_mode = 3
 [node name="YesButton" type="TextureButton" parent="Control"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -8.2016e-05
-anchor_top = -0.5412884
-anchor_right = -8.2016e-05
-anchor_bottom = -0.5412884
-offset_left = 39.0
-offset_top = 106.0
-offset_right = 59.0
-offset_bottom = 126.0
-scale = Vector2(2, 2)
-texture_normal = ExtResource("2_pxfe1")
+anchor_left = -0.621141
+anchor_top = -0.541288
+anchor_right = 0.478859
+anchor_bottom = -0.241288
+offset_left = 38.9996
+offset_top = 106.578
+offset_right = 58.9996
+offset_bottom = 126.578
+texture_normal = ExtResource("3_3vher")
 metadata/_edit_use_anchors_ = true
 
 [node name="NoButton" type="TextureButton" parent="Control"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.31419662
-anchor_top = -0.50184536
-anchor_right = 0.3141968
-anchor_bottom = -0.50184536
+anchor_left = 0.321418
+anchor_top = -0.501845
+anchor_right = 1.42142
+anchor_bottom = -0.201845
 offset_left = 105.0
 offset_top = 105.0
 offset_right = 125.0
 offset_bottom = 125.0
-scale = Vector2(2, 2)
-texture_normal = ExtResource("2_pxfe1")
+texture_normal = ExtResource("4_i00nb")
 metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="Control/YesButton" to="." method="_on_yes_button_pressed"]
