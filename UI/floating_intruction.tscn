@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://buxa24dwap3hs" path="res://UI/floating_intruction.gd" id="1_kivrb"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_k5sqd"]
+font_size = 80
 
 [node name="FloatingIntruction" type="Control"]
 layout_mode = 3

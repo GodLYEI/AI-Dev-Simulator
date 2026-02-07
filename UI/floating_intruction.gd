@@ -15,7 +15,7 @@ func _ready() -> void:
 func fade_in():
 	var tween1 = create_tween()
 	var tween2 = create_tween()
-	tween1.tween_property(self, "global_position", Vector2(25, 40), 1)
+	tween1.tween_property(self, "global_position", Vector2(125, 200), 1)
 	tween2.tween_property(self, "modulate:a", 1, 1)
 	await tween2.finished
 	print("Fade in complete!")
@@ -23,7 +23,7 @@ func fade_in():
 func fade_out():
 	var tween1 = create_tween()
 	var tween2 = create_tween()
-	tween1.tween_property(self, "global_position", Vector2(25, 30), 1)
+	tween1.tween_property(self, "global_position", Vector2(125, 150), 1)
 	tween2.tween_property(self, "modulate:a", 0.0, 1.0)
 	await tween2.finished 
 	print("Fade out complete!")

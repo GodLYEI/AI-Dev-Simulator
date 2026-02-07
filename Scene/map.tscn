@@ -276,7 +276,7 @@ size = Vector2(16, 24)
 size = Vector2(14.5, 5)
 
 [node name="Map" type="StaticBody2D"]
-scale = Vector2(2, 2)
+scale = Vector2(10, 10)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAAAAAAAAAAFAAsAAAAAAAEAAAAFAAwAAAAAAAIAAAAFAA0AAAAAAAMAAAAFAA4AAAAAAAQAAAAFAA8AAAABAAAAAAAGAAsAAAABAAEAAAAGAAwAAAABAAIAAAAGAA0AAAABAAMAAAAGAA4AAAABAAQAAAAGAA8AAAACAAAAAAAHAAsAAAACAAEAAAAHAAwAAAACAAIAAAAHAA0AAAACAAMAAAAHAA4AAAACAAQAAAAHAA8AAAADAAAAAAAIAAsAAAADAAEAAAAIAAwAAAADAAIAAAAIAA0AAAADAAMAAAAIAA4AAAADAAQAAAAIAA8AAAA=")
@@ -306,8 +306,8 @@ shape = SubResource("RectangleShape2D_ex5br")
 position = Vector2(56, 44)
 shape = SubResource("RectangleShape2D_s12we")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="ComputerZone" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ComputerZone"]
 position = Vector2(24, 26.5)
 shape = SubResource("RectangleShape2D_54rcs")

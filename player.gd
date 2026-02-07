@@ -1,10 +1,10 @@
 extends CharacterBody2D
 
-@export var speed: float = 100.0
+@export var speed: float = 500.0
 @onready var anim: AnimatedSprite2D = $AnimatedSprite2D
 
 # Sau khi lưu code, hãy kéo node CanvasLayer vào ô này ở Inspector của Player
-@export var computer_ui: CanvasLayer 
+@export var computer_ui: CanvasLayer
 	
 var player_in_range = false 
 var is_using_computer = false

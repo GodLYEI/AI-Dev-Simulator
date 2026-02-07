@@ -12,13 +12,13 @@ config_version=5
 
 config/name="SparkHack"
 run/main_scene="uid://blealwbwk1lol"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=192
-window/size/viewport_height=160
+window/size/viewport_width=960
+window/size/viewport_height=800
 window/stretch/mode="viewport"
 
 [input]

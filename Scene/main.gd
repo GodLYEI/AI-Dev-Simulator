@@ -8,7 +8,7 @@ func _ready() -> void:
 	var ft = FloatingText.instantiate()
 	$PlayerUI.add_child(ft)
 
-	ft.global_position = Vector2(25, 50);
+	ft.global_position = Vector2(125, 250);
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
