@@ -11,7 +11,6 @@ extends CharacterBody2D
 @export var dialogue_label: Label 
 # Sau khi lưu code, hãy kéo node CanvasLayer vào ô này ở Inspector của Player
 
-
 var ethic_scale = 50; 
 
 var player_in_range = false 
